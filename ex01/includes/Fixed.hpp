@@ -6,7 +6,7 @@
 /*   By: mbernard <mbernard@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 10:13:56 by mbernard          #+#    #+#             */
-/*   Updated: 2024/08/15 12:07:40 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/08/15 13:20:09 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #define EX01_INCLUDES_FIXED_HPP_
 
 #include <iostream>
-#include <string>
+#include <cmath>
 
 class Fixed {
  public:
@@ -29,10 +29,10 @@ class Fixed {
   float   toFloat(void) const;
   int     toInt(void) const;
  private:
-  static const int eightBits = 8;
-  int   fixedComma;
+  static const int _fractionalBits = 8;
+  int              _rawBits;
 };
 
-std::ostream &operator<<(std::ofstream &outStream, const Fixed &num);
+std::ostream &operator<<(std::ostream &outStream, const Fixed &num);
 
 #endif  // EX01_INCLUDES_FIXED_HPP_
