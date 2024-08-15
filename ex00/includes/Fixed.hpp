@@ -6,7 +6,7 @@
 /*   By: mbernard <mbernard@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 10:13:56 by mbernard          #+#    #+#             */
-/*   Updated: 2024/08/15 11:36:45 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/08/15 12:47:48 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 #define EX00_INCLUDES_FIXED_HPP_
 
 #include <iostream>
-#include <string>
 
 class Fixed {
  public:
