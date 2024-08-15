@@ -6,7 +6,7 @@
 /*   By: mbernard <mbernard@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 10:13:56 by mbernard          #+#    #+#             */
-/*   Updated: 2024/08/15 12:47:48 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/08/15 12:51:19 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class Fixed {
   int   getRawBits(void) const;
   void  setRawBits(int const raw);
  private:
-  static const int eightBits = 8;
-  int   fixedComma;
+  static const int _eightBits = 8;
+  int              _fixedComma;
 };
 #endif  // EX00_INCLUDES_FIXED_HPP_
