@@ -6,12 +6,12 @@
 /*   By: mbernard <mbernard@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 10:16:27 by mbernard          #+#    #+#             */
-/*   Updated: 2024/08/15 11:37:58 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/08/15 11:43:52 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
-#include <cstdlib>
+#include <iostream>
 #include "../includes/Fixed.hpp"
 
 int main(void) {
