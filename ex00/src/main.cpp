@@ -6,10 +6,9 @@
 /*   By: mbernard <mbernard@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 10:16:27 by mbernard          #+#    #+#             */
-/*   Updated: 2024/08/15 11:43:52 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/08/15 12:48:32 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include <iostream>
 #include "../includes/Fixed.hpp"
