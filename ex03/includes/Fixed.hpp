@@ -6,12 +6,12 @@
 /*   By: mbernard <mbernard@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 10:13:56 by mbernard          #+#    #+#             */
-/*   Updated: 2024/08/15 18:14:49 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/08/16 10:48:17 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EX02_INCLUDES_FIXED_HPP_
-#define EX02_INCLUDES_FIXED_HPP_
+#ifndef EX03_INCLUDES_FIXED_HPP_
+#define EX03_INCLUDES_FIXED_HPP_
 
 #include <iostream>
 #include <cmath>
@@ -51,6 +51,7 @@ class Fixed {
   static const Fixed &min(const Fixed &a, const Fixed &b);
   static Fixed &max(Fixed &a, Fixed &b);
   static const Fixed &max(const Fixed &a, const Fixed &b);
+
  private:
   static const int _fractionalBits = 8;
   int              _rawBits;
@@ -58,4 +59,4 @@ class Fixed {
 
 std::ostream &operator<<(std::ostream &outStream, const Fixed &num);
 
-#endif  // EX02_INCLUDES_FIXED_HPP_
+#endif  // EX03_INCLUDES_FIXED_HPP_
