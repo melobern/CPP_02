@@ -6,7 +6,7 @@
 #    By: mbernard <mbernard@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/15 10:06:15 by mbernard          #+#    #+#              #
-#    Updated: 2024/08/15 19:01:42 by mbernard         ###   ########.fr        #
+#    Updated: 2024/08/16 09:58:14 by mbernard         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ MKDIR = mkdir -p
 RMDIR = rm -rf
 
 # ---------------------------------- Sources --------------------------------- #
-HEADER = Fixed Point bsp
+HEADER = Fixed Point
 SRCS = main Fixed Point bsp
 
 # ---------------------------------- Repertories ----------------------------- #
